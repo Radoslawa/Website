@@ -18,15 +18,16 @@
           </a>
         </li>
         <li><a href="#">Home</a></li>
-        <li><a href="Pferderassen.html" target="_blank">Die Pferderassen</a></li>
-        <li><a href="Vollblut.html">Das Vollblut</a></li>
-        <li><a href="Warmblut.html">Das Warmblut</a></li>
-        <li><a href="Kaltblut.html"> Das Kaltblut</a></li>
+        <li><a href="./Pferderassen.html" target="_blank">Die Pferderassen</a></li>
+        <li><a href="./Vollblut.html">Das Vollblut</a></li>
+        <li><a href="./Warmblut.html">Das Warmblut</a></li>
+        <li><a href="./Kaltblut.html"> Das Kaltblut</a></li>
       </ul>
       <ul class="sticky">
         <li class="logo"><a href="index.html">Pferde</a></li>
         <li>
-          <button class="menu-button" onclick="showSidebar()">
+          <button class="menu-button"  >
+
             <i class="fa-solid fa-bars" aria-label="Open Menu"></i>
           </button>
         </li>
@@ -124,10 +125,11 @@
   
 </footer>
 <script>
-  function showSidebar() {
+  function  showSidebar() {
     const sidebar = document.querySelector('.sidebar');
     sidebar.style.display = 'flex';
   }
+  document.querySelector(".menu-button").addEventListener("click", showSidebar);
   function hideSidebar()  
 {
     const sidebar = document.querySelector('.sidebar');
