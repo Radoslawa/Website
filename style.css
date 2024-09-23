@@ -61,7 +61,6 @@ nav li:first-child {
 .menu-button {
   margin-top: 11px;
   margin-right: 20px;
-  
   color: rgb(217, 220, 58);
   font-size: 1.5rem;
   padding: 10px;
@@ -71,8 +70,7 @@ nav li:first-child {
   text-transform: uppercase;
 }
 .menu-button:hover {
- 
-  color: black;
+ color: black;
 }
 .logo {
   margin-top: 20px;
