@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pferde</title>
+  <link rel="icon" type="image/jpg" href="Images/favicons.jpg">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/294ac83023.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#">
+          <i class="fa-solid fa-xmark" aria-label="Close Menu"></i>
+          </a>
+        </li>
+        <li><a href="#">Home</a></li>
+        <li><a href="Pferderassen.html" target="_blank">Die Pferderassen</a></li>
+        <li><a href="Vollblut.html">Das Vollblut</a></li>
+        <li><a href="Warmblut.html">Das Warmblut</a></li>
+        <li><a href="Kaltblut.html"> Das Kaltblut</a></li>
+      </ul>
+      <ul class="sticky">
+        <li class="logo"><a href="index.html">Pferde</a></li>
+        <li>
+          <button class="menu-button" onclick="showSidebar()">
+            <i class="fa-solid fa-bars" aria-label="Open Menu"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+ 
+
+<div class="slider">
+    <figure>
+      <img class="img-slider" src="Images/header/braun pferd 2.jpg"  alt="">
+      <img class="img-slider" src="Images/header/pferd.jpg"  alt="">
+      <img class="img-slider" src="Images/header/braun pferd.jpg"  alt="">
+      <img class="img-slider" src="Images/header/vollblüter 2.jpg"   alt="">
+      <img class="img-slider" src="Images/header/braun pferd 2.jpg"  alt="">
+    </figure>
+  </div>
+  <div class="banner-text">
+    <h1>Pferde</h1>
+    <p><q><strong>Keine Stunde unseres Lebens ist verschwendet, wenn wir sie im Sattel verbringen.</q> - Winston
+        Churchill</strong></p>
+  </div>
+
+<main>
+  <h3><strong>Das Hauspferd (Equus caballus) ist ein weit verbreitetes Haus- bzw. Nutztier, das heute in zahlreichen Rassen auf der ganzen Welt existiert. <br>Das Hauspferd ist die domestizierte Form des Wildpferdes, das mit den Eseln und Zebras die Familie der Pferde (Einhufer, Equidae) innerhalb der Ordnung der Unpaarhufer (Perissodactyla) bildet.</strong></h3>
+<div class="wrapper">
+  <div class="container">
+    <input type="radio" name="slide" id="c1" checked>
+    <label for="c1" class="card">
+      <div class="row">
+        <div class="icon">1</div>
+        <div class="description">
+          <h4>Die Pferderassen</h4>
+          <a href="Pferderassen.html" target="_blank">
+          <button>Erfahren Sie mehr</button>
+        </a>
+        </div>
+      </div>
+    </label>
+    <input type="radio" name="slide" id="c2" >
+    <label for="c2" class="card">
+      <div class="row">
+        <div class="icon">2</div>
+        <div class="description">
+          <h4>Das Vollblut</h4>
+          <a href="Vollblut.html" target="_blank">
+         <button>Erfahren Sie mehr</button>
+        </a>
+        </div>
+      </div>
+    </label>
+    <input type="radio" name="slide" id="c3" >
+    <label for="c3" class="card">
+      <div class="row">
+        <div class="icon">3</div>
+        <div class="description">
+          <h4>Das Warmblut</h4>
+          <a href="Warmblut.html" target="_blank">
+         <button>Erfahren Sie mehr</button>
+        </a>
+        </div>
+      </div>
+    </label>
+    <input type="radio" name="slide" id="c4" >
+    <label for="c4" class="card">
+      <div class="row">
+        <div class="icon">4</div>
+        <div class="description">
+          <h4>Das Kaltblut</h4>
+          <a href="Kaltblut.html" target="_blank">
+         <button>Erfahren Sie mehr</button>
+        </a>
+        </div>
+      </div>
+    </label>
+  </div>
+
+
+</div>
+</main>
+<footer>
+  <div class="footerContainer">
+    <div class="socialIcons">
+      <a href="index.html" target="_blank" title="Home"><i class="fa-solid fa-house"></i></a>
+      <a href="mailto:test@fake.com" target="_blank" title="E-mail"><i class="fa-solid fa-envelope"></i></a>
+      <a href="Impressum.html" target="_blank" title="Impressum"><i class="fa-solid fa-gavel"></i></a>
+      <a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://de-de.facebook.com/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://x.com/" target="_blank" title="X-twitter"><i class="fa-brands fa-x-twitter"></i></a>
+     </div>
+  </div>
+  <div class="footerBottom">
+    <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 &brvbar; All Rights Reserved  ; Designed by <span class="author">Radoslawa Turek</span></p>
+  </div>
+  
+</footer>
+<script>
+  function showSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'flex';
+  }
+  function hideSidebar()  
+{
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none';  
+
+  }
+</script>
+</body>
+</html>
